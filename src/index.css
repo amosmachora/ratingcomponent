@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 15px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,109 @@
+.App {
+  width: 400px;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  padding: 30px;
+}
+.star-surround img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: hsl(213, 19%, 30%);
+}
+.how-did-we-do {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.please-select {
+  color: hsl(217, 12%, 63%);
+  font-size: 1 rem;
+}
+.numbers__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.numbers__container > * {
+  padding: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 60%;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 30%);
+  text-align: center;
+  cursor: pointer;
+}
+.numbers__container > *:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+.one.one-selected {
+  background-color: hsl(25, 97%, 53%);
+  transition: background-color 100ms ease-in-out;
+}
+.two.two-selected {
+  transition: background-color 100ms ease-in-out;
+  background-color: hsl(25, 97%, 53%);
+}
+.three.three-selected {
+  transition: background-color 100ms ease-in-out;
+  background-color: hsl(25, 97%, 53%);
+}
+.four.four-selected {
+  transition: background-color 100ms ease-in-out;
+  background-color: hsl(25, 97%, 53%);
+}
+.five.five-selected {
+  transition: background-color 100ms ease-in-out;
+  background-color: hsl(25, 97%, 53%);
+}
+button[type="submit"] {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  outline: none;
+  color: hsl(0, 0%, 100%);
+  padding: 13px 0px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+button[type="submit"]:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+  transition: color 300ms ease-in;
+  transition: background-color 300ms ease-in;
+}
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.you-selected {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 30%);
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.thanks {
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+.thank-you > :last-child {
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  width: 36ch;
+}
+.attribution {
+  margin-top: 70px;
+  color: white;
+}
